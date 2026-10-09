@@ -1,0 +1,20 @@
+*{
+    padding: 10px;
+    background-color: black;
+}
+.produtos_decima{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+.produtos_debaixo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
