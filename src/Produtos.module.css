@@ -2,6 +2,10 @@
     padding: 10px;
     background-color: black;
 }
+.voltar{
+    height: 50px;
+    width: 60px;
+}
 .produtos_decima{
     background-color: black;
     display: flex;
