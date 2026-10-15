@@ -1,19 +1,16 @@
-import { useState } from 'react'
 import logo from './assets/logo.png'
 import s from './App.module.css'
-import { Link } from 'react-router'
-
+import { Link } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
     <section className={s.inicio}>
-      <img className={s.logo} src={logo} alt="logo" /><br/><br/>
-      <Link to='/produtos' className={s.botao}>ENTRAR</Link>
+      <img className={s.logo} src={logo} alt="logo" />
+      <br /><br />
+      <Link to="/produtos" className={s.botao}>
+        ENTRAR
+      </Link>
     </section>
-    </>
   )
 }
 
