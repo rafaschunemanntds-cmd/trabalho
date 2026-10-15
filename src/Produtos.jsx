@@ -22,7 +22,13 @@ function Produtos() {
       />
 
       <div className={s.produtos_decima}>
-        <img src={impressoras} alt="Impressoras" />
+        <img
+        src={impressoras}
+        className={s.impressoras}
+        alt="Voltar"
+        onClick={() => navigate('/impressora')}
+        style={{ cursor: 'pointer' }}
+      />
         <img src={resinas} alt="Resinas" />
         <img src={filamentos} alt="Filamentos" />
       </div>
