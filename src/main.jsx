@@ -5,6 +5,10 @@ import './index.css'
 import App from './App.jsx'
 import Produtos from './Produtos.jsx'
 import Impressora from './Impressora.jsx'
+import Resina from './Resina.jsx'
+import Filamento from './Filamento.jsx'
+import Pecas from './Pecas.jsx'
+import Acessorios from './Acessorios.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
   {
     path: '/impressora',
     element: <Impressora />,
+  },
+  {
+    path: '/resina',
+    element: <Resina />,
+  },
+  {
+    path: '/filamento',
+    element: <Filamento />,
+  },
+  {
+    path: '/pecas',
+    element: <Pecas />,
+  },
+  {
+    path: '/acessorios',
+    element: <Acessorios />,
   },
 ])
 

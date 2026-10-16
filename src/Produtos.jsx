@@ -1,4 +1,3 @@
-
 import acessorios from './assets/acessorios.png'
 import filamentos from './assets/filamentos.png'
 import impressoras from './assets/impressoras.png'
@@ -25,19 +24,43 @@ function Produtos() {
         <img
         src={impressoras}
         className={s.impressoras}
-        alt="Voltar"
+        alt="Impressora"
         onClick={() => navigate('/impressora')}
         style={{ cursor: 'pointer' }}
       />
-        <img src={resinas} alt="Resinas" />
-        <img src={filamentos} alt="Filamentos" />
+        <img
+        src={resinas}
+        className={s.resinas}
+        alt="Resina"
+        onClick={() => navigate('/resina')}
+        style={{ cursor: 'pointer' }}
+      />
+        <img
+        src={filamentos}
+        className={s.filamentos}
+        alt="Filamento"
+        onClick={() => navigate('/filamento')}
+        style={{ cursor: 'pointer' }}
+      />
       </div>
 
       <br /><br /><br />
 
       <div className={s.produtos_debaixo}>
-        <img src={pecas} alt="Peças" />
-        <img src={acessorios} alt="Acessórios" />
+        <img
+        src={pecas}
+        className={s.pecas}
+        alt="Pecas"
+        onClick={() => navigate('/pecas')}
+        style={{ cursor: 'pointer' }}
+      />
+        <img
+        src={acessorios}
+        className={s.acessorios}
+        alt="Acessorios"
+        onClick={() => navigate('/acessorios')}
+        style={{ cursor: 'pointer' }}
+      />
       </div>
     </>
   )
