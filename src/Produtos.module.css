@@ -1,6 +1,7 @@
-*{
-    padding: 10px;
+.all{
+    padding: 100px;
     background-color: black;
+    height: 100vh;
 }
 .voltar{
     height: 50px;

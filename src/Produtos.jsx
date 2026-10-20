@@ -11,7 +11,7 @@ function Produtos() {
   const navigate = useNavigate()
 
   return (
-    <>
+    <div className={s.all}>
       <img
         src={voltar}
         className={s.voltar}
@@ -62,7 +62,7 @@ function Produtos() {
         style={{ cursor: 'pointer' }}
       />
       </div>
-    </>
+    </div>
   )
 }
 
