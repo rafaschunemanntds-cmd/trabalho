@@ -9,6 +9,7 @@ import Resina from './Resina.jsx'
 import Filamento from './Filamento.jsx'
 import Pecas from './Pecas.jsx'
 import Acessorios from './Acessorios.jsx'
+import Login from './Login.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: '/acessorios',
     element: <Acessorios />,
+  },
+  {
+    path: '/login',
+    element: <Login />,
   },
 ])
 

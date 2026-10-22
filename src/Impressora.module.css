@@ -1,16 +1,18 @@
 .all{
     background-color: white;
+    margin: 10px;
+    padding: 10px;
 }
 
 .voltar{
-    height: 50px;
-    width: 60px;
+   height: 30px;
+   width: 30px;
 }
 
 .impressoras{
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 200px;
 }
 
 .luide{
@@ -41,7 +43,8 @@
     background-color:#f39f29;
     color: black;
     width: 200px;
-    font-size: 17px;
+    height: 40px;
+    font-size: 22px;
     border-radius: 7px;
     border: none;
 }

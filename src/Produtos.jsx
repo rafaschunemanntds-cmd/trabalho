@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import acessorios from './assets/acessorios.png'
 import filamentos from './assets/filamentos.png'
 import impressoras from './assets/impressoras.png'
@@ -5,7 +6,6 @@ import resinas from './assets/resinas.png'
 import pecas from './assets/pecas.png'
 import voltar from './assets/voltar.png'
 import s from './Produtos.module.css'
-import { useNavigate } from 'react-router-dom'
 
 function Produtos() {
   const navigate = useNavigate()
@@ -43,9 +43,7 @@ function Produtos() {
         style={{ cursor: 'pointer' }}
       />
       </div>
-
-      
-
+      <br /><br /><br />
       <div className={s.produtos_debaixo}>
         <img
         src={pecas}
