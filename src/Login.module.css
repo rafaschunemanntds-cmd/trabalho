@@ -1,0 +1,26 @@
+.all{
+    background-color: #415A77;
+    height: 100vh;
+}
+.voltar{
+   height: 30px;
+   width: 30px;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+}
+.info{
+    height: 50px;
+    width: 300px;
+    font-family: "Intel One Mono", monospace;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
