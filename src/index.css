@@ -12,3 +12,6 @@ button{
   font-family: "Inder", sans-serif;
   font-size: 25px;
 }
+a{
+  text-decoration: none;
+}

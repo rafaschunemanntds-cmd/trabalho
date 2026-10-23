@@ -16,10 +16,13 @@ function Login() {
           style={{ cursor: 'pointer' }}
         />
         <h1 className={s.headline}>Login</h1>
+        <br /><br /><br />
         <div className={s.botoes}>
-          <input className={s.info} type="text" placeholder='Usuário'/><br />
-          <input className={s.info} type="text" placeholder='Senha'/><br />
-          <button>ENTRAR</button>
+          <input className={s.info} type="text" placeholder=' Usuário'/><br />
+          <input className={s.info} type="text" placeholder=' Senha'/><br />
+          <Link to="/produtos" className={s.botao}>
+            ENTRAR
+          </Link>
         </div>
       </div>
     )

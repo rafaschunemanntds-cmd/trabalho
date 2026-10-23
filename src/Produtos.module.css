@@ -1,13 +1,16 @@
 .all{
-    padding: 100px;
+    
     background-color: black;
     height: 100vh;
 }
 .voltar{
     height: 50px;
     width: 60px;
+    padding: 10px;
+    margin: 10px;
 }
 .produtos_decima{
+    padding: 60px;
     background-color: black;
     display: flex;
     justify-content: center;
