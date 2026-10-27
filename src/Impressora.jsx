@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import impressoraUm from './assets/impressoraum.png'
 import impressoraDois from './assets/impressoradois.png'
-import voltar from './assets/voltarPreto.png'
+import voltar from './assets/voltar.png'
 import s from './Impressora.module.css'
 
 function Impressora() {

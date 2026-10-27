@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import voltar from './assets/voltarPreto.png'
+import voltar from './assets/voltar.png'
 import impressoraUm from './assets/pecasUm.png'
 import impressoraDois from './assets/pecasDois.png'
 import s from './Pecas.module.css'
